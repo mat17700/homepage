@@ -79,7 +79,19 @@ export const StyledButton = styled.a`
     box-shadow: 0 0.125rem 0.375rem rgba(128, 0, 255, 0.2);
   }
 
+  /* Remove outline padrão */
   &:focus {
+    outline: none;
+  }
+
+  /* Aplica outline apenas quando navegado via teclado */
+  &:focus-visible {
+    outline: 2px solid rgba(128, 0, 255, 0.5);
+    outline-offset: 2px;
+  }
+
+  /* Fallback para navegadores que não suportam :focus-visible */
+  &.focus-visible {
     outline: 2px solid rgba(128, 0, 255, 0.5);
     outline-offset: 2px;
   }
