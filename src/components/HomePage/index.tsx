@@ -40,10 +40,10 @@ export function HomePage() {
           Meus Serviços(TI)
         </Button>
         <Button href="#" showTooltip>
-          Veja meu portifólio
+          Veja Meu Portifólio
         </Button>
         <Button href="https://wa.me/5581997072752" target="_blank">
-          Entre em contato
+          Entre Em Contato
           <WhatsappLogo size={26} weight="fill" />
         </Button>
       </ButtonContainer>
