@@ -33,14 +33,14 @@ export function HomePage() {
         >
           Ajude a Espalhar a Palavra
         </Button>
+        <Button href="#" showTooltip>
+          Veja Meu Portifólio
+        </Button>
         <Button 
           href="https://pe.olx.com.br/grande-recife/servicos/formatacao-instalacao-de-programas-montagem-e-manutencao-de-pcs-mateus-1419522705?utm_medium=shared_link&utm_source=direct"
           target="_blank"
         >
           Meus Serviços(TI)
-        </Button>
-        <Button href="#" showTooltip>
-          Veja Meu Portifólio
         </Button>
         <Button href="https://wa.me/5581997072752" target="_blank">
           Entre Em Contato
