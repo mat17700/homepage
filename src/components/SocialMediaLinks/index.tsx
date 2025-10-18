@@ -12,7 +12,7 @@ export function SocialMediaLinks() {
   return (
     <SocialLinksWrapper>
       <AuthorText>
-        Desenvolvido por <AuthorName>Mat</AuthorName>
+        Desenvolvido por <AuthorName>Leonni</AuthorName>
         <Heart size={16} weight="fill" />
       </AuthorText>
 
